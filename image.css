@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(236, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: black;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: fixed;
+    
+}
+.arrow{
+    height: 100px;
+    cursor: pointer;
+    background-color: aqua;
+}
+.frame{
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 8px 8px 10px rgba(219, 205, 205, 0.5),
+    -8px -8px 10px rgba(219, 205, 205, 0.5)
+}
+.slider{
+    display: flex;
+    width: 450vw;
+    transition: all 1s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+ 
+.arrow :left:hover{
+    box-shadow:inset 5px 5px 10px rgb(16,16,16,.1),
+               inset -5px -5px 10px #fff; 
+}
+.image{
+    width:800px;
+    height: 500px;
+    object-position: cover;
+    object-fit: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 45px;
+}
