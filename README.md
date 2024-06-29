@@ -1,0 +1,2 @@
+The slider is visually appealing, featuring a stunning box shadow and icons sourced from Font Awesome. Our approach to creating this project will involve initially building the HTML structure, followed by styling the slider with CSS, and finally, adding functionality to the project using JavaScript.
+This slider contains some testing images of resolutions 800px and 500px in HD quality with functionability such as slideshow,hover and different features.
